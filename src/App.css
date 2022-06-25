@@ -1,6 +1,7 @@
-.App {
+/* .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -42,7 +43,15 @@ button {
 }
 .logo-font {
   font-family: 'Fruktur', cursive;
-}
+} */
 .small-font {
-  font-size: 0.5rem;
+  font-size: 0.9rem;
+}
+.icon-items {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 1rem rgb(221, 221, 221);
 }
