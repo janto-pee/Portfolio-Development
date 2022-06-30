@@ -27,7 +27,7 @@ const Header = () => {
             experience developing highly scalable, mobile responsive, and robust
             enterprise web applications.
           </p>
-          <div className="hidden md:flex border border-slate-400 md:w-5/6 lg:w-2/3 items-center justify-between gap-2 rounded-2xl p-1 ">
+          <div className="hidden md:flex border border-slate-400 md:w-5/6 lg:w-3/6 items-center justify-between gap-2 rounded-2xl p-1 ">
             <SiBlockchaindotcom />
             <SiEthereum />
             <SiNextdotjs />

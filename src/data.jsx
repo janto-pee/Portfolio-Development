@@ -1,5 +1,13 @@
 import client1 from "./Assets/client1.jpg";
 import client2 from "./Assets/client2.jpg";
+import Ui1 from "./Assets/ui/portfolio1.png"
+import Ui2 from "./Assets/ui/portfolio2.png"
+import Ui3 from "./Assets/ui/portfolio3.png"
+import Ui4 from "./Assets/ui/portfolio4.png"
+import Ui5 from "./Assets/ui/portfolio5.png"
+import Ui6 from "./Assets/ui/portfolio6.png"
+import Ui7 from "./Assets/ui/portfolio7.png"
+import Ui8 from "./Assets/ui/portfolio8.png"
 
 export const data = {
   experience: [
@@ -62,3 +70,5 @@ export const data = {
     { name: "Location", comment: "enter your location here" },
   ],
 };
+
+export const projectUI = [Ui1, Ui2, Ui3, Ui4, Ui5, Ui6, Ui7, Ui8 ]
