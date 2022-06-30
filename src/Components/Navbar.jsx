@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import AyoCV from '../Assets/cv/Adejumo.pdf'
 import {
   AiOutlineDownload,
   AiOutlineMenu,
@@ -20,14 +21,14 @@ const Navbar = () => {
           </Link>
           <ul className="hidden md:flex items-center justify-between md:gap-4 lg:gap-8 text-slate-300">
             <Link to={"/"}>Home</Link>
-            <Link to={"/services"}>Services</Link>
+            <a href="https://github.com/janto-pee">Github</a>
             <Link to={"/portfolio"}>Portfolio</Link>
             <Link to={"/contact"}>Contact</Link>
           </ul>
-          <button className="hidden md:flex items-center gap-2 bg-secondary px-3 py-2">
+          <a className="hidden md:flex items-center gap-2 bg-secondary px-3 py-2" href={AyoCV}>
             {" "}
             <AiOutlineDownload /> Download CV
-          </button>
+          </a>
 
           {/* mobile menu */}
           {menu ? (

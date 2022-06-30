@@ -12,19 +12,20 @@ import Ui8 from "./Assets/ui/portfolio8.png"
 export const data = {
   experience: [
     {
-      year: "2016 - 2019",
-      position: "Fullstack Developer",
-      stack: "React, Nextjs, Angular, Nodejs, Expressjs, MongoDB",
+      year: "2021 - present",
+      position: "Lead Software Developer",
+      stack: "React, Solidity, Nodejs, Expressjs, MongoDB, Nextjs",
     },
+    
     {
       year: "2019 - 2021",
       position: "Graduate Program",
       stack: "Project Management, Agile, Waterfall",
     },
     {
-      year: "2021 - present",
-      position: "Lead Software Developer",
-      stack: "React, Solidity, Nodejs, Expressjs, MongoDB, Nextjs",
+      year: "2016 - 2019",
+      position: "Fullstack Developer",
+      stack: "React, Nextjs, Angular, Nodejs, Expressjs, MongoDB",
     },
   ],
   project: [
