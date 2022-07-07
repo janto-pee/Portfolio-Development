@@ -1,8 +1,8 @@
 import React from "react";
 import { Link, Routes, Route } from "react-router-dom";
 import Contact from "./Pages/contact";
-import Homepage from "./Pages/Homepage";
 import Services from "./Pages/services";
+import Homepage from "./Pages/Homepage";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import "./App.css";
