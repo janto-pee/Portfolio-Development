@@ -4,7 +4,7 @@ import Experience from "../Components/Experience";
 import Header from "../Components/Header";
 import Projects from "../Components/Projects";
 
-const Homepage = () => {
+const Home = () => {
   return (
     <div className="bg-primary w-full">
       <div className="w-11/12 mx-auto">
@@ -17,4 +17,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default Home;

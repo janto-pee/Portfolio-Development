@@ -2,7 +2,7 @@ import React from "react";
 import { Link, Routes, Route } from "react-router-dom";
 import Contact from "./Pages/contact";
 import Services from "./Pages/services";
-import Homepage from "./Pages/Homepage";
+import Home from "./Pages/home";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import "./App.css";
@@ -19,7 +19,7 @@ const App = () => {
     <div>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/services" element={<Services />} />
