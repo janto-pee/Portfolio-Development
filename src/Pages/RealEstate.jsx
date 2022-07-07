@@ -1,5 +1,5 @@
 import React from 'react'
-import project2 from '../../Assets/ui/portfolio9.png'
+import project2 from '../Assets/ui/portfolio9.png'
 
 const RealEstate = () => {
   return (

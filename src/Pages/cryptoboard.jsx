@@ -1,5 +1,5 @@
 import React from 'react'
-import cryptoboard from "../../Assets/ui/portfolio2.png"
+import cryptoboard from "../Assets/ui/portfolio2.png"
 
 const Cryptoboard = () => {
   return (

@@ -7,12 +7,12 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import "./App.css";
 import Portfolio from "./Pages/portfolio";
-import RealEstate from "./Pages/Projects/RealEstate";
-import Skincare from "./Pages/Projects/skincare-lp";
-import Realestate from "./Pages/Projects/realestate-2";
-import Cryptoboard from "./Pages/Projects/cryptoboard";
-import Web3 from "./Pages/Projects/web3";
-import CryptosApi from "./Pages/Projects/CryptosApi";
+import RealEstate from "./Pages/RealEstate";
+import Skincare from "./Pages/skincare-lp";
+import Realestate from "./Pages/realestate-2";
+import Cryptoboard from "./Pages/cryptoboard";
+import Web3 from "./Pages/web3";
+import CryptosApi from "./Pages/CryptosApi";
 
 const App = () => {
   return (

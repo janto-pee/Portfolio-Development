@@ -1,5 +1,5 @@
 import React from 'react'
-import skincare from "../../Assets/ui/skincareLP.png"
+import skincare from "../Assets/ui/skincareLP.png"
 
 const Skincare = () => {
   return (

@@ -29,10 +29,10 @@ const Portfolio = () => {
               </div>
             </div>
             <h1 className="text-4xl text-bold mt-16 text-gray-100 mb-8">Other <span className="text-secondary">Products </span> in progress</h1>
-              <div className="flex gap-12">
+              <div className="flex flex-col md:flex-row gap-12">
                 {
                     portfolio.qa.map((items, i) => (
-                        <div>
+                        <div className=''>
                             <img src={items.img} alt="" className='w-full' key={{i}} />
                             <h1 className="text-xl mt-4 text-gray-200">{items.title}</h1>
                             <p className='text-gray-400 mt-4 text-gray-400'>{items.subtitle.length < 90 ? items.subtitle : `${items.subtitle.substring(0, 89)}...` }</p>

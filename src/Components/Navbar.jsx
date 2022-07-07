@@ -38,9 +38,9 @@ const Navbar = () => {
                 onClick={() => setMenu(!menu)}
               />
               <Link to={"/"}>Home</Link>
-              <Link to={"/services"}>Services</Link>
               <Link to={"/portfolio"}>Portfolio</Link>
-              <a to={"https://ng.linkedin.com/in/adejumo-ayobami-347bb9227"}>LinkedIn</a>
+              <a href="https://github.com/janto-pee">Github</a>
+              <a href="https://ng.linkedin.com/in/adejumo-ayobami-347bb9227">LinkedIn</a>
             </ul>
           ) : (
             <AiOutlineMenu

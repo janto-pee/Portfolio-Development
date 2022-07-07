@@ -1,5 +1,5 @@
 import React from 'react'
-import cryptosAPI from "../../Assets/ui/API.png"
+import cryptosAPI from "../Assets/ui/API.png"
 
 const CryptosApi = () => {
   return (

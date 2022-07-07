@@ -1,5 +1,5 @@
 import React from 'react'
-import web3 from "../../Assets/ui/portfolio3.png"
+import web3 from "../Assets/ui/portfolio3.png"
 
 const Web3 = () => {
   return (
