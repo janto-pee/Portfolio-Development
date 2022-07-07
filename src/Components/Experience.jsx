@@ -20,16 +20,10 @@ const Experience = () => {
         <div className="md:w-1/2 mt-8 flex flex-col justify-between">
           <div>
             <p className="text-slate-300 mb-4">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Laboriosam voluptatum at illum aspernatur eveniet asperiores?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis rem
-              beatae sed, deleniti nam quas! Sint voluptate maxime obcaecati
-              facere.
+            I am a software engineer who constantly seeks out innovative solutions to everyday problems. In my four years in this industry, I've honed my analytical thinking and collaboration skills, and I love working with a team. I've also had the opportunity to serve as the software engineer for 4+ projects with Gammalance Technologies.
             </p>
             <p className=" text-slate-300 hidden md:block">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
-              eligendi dolore! Velit laborum suscipit possimus? Quia eius rerum
-              non omnis.
+            Before my current position, I was a junior software engineer with Tizco .NET. While working there, I committed to fullstack web development, which has been my specialty for more than three years. This experience has made me suitable for roles in the field of fullstack, QA and software architecture. 
             </p>
           </div>
           <div className="flex items-center justify-between mt-auto">
