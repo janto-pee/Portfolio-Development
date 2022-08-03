@@ -7,7 +7,7 @@ import { portfolio, data } from '../data'
 const Portfolio = () => {
     const title = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error consequatur pariatur maxime ipsum fugiat beatae officia et ut velit ullam?'
     return (
-        <div className='w-full bg-primary text-gray'>
+        <div className='w-full bg-primary text-gray overflow-hidden'>
           <div className="w-11/12 mx-auto pt-12 pb-8">
             <div className="flex flex-col md:flex-row gap-16">
               <div className="md:basis-1/2">

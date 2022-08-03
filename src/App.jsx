@@ -13,6 +13,7 @@ import Realestate from "./Pages/realestate-2";
 import Cryptoboard from "./Pages/cryptoboard";
 import Web3 from "./Pages/web3";
 import CryptosApi from "./Pages/CryptosApi";
+import Sellym from "./Pages/sellym";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/services" element={<Services />} />
         <Route path="/portfolio/real-estate" element={<RealEstate />} />
         <Route path="/portfolio/skincare-lp" element={<Skincare />} />
+        <Route path="/portfolio/sellym" element={<Sellym />} />
         <Route path="/portfolio/realestate2" element={<Realestate />} />
         <Route path="/portfolio/cryptoboard-app" element={<Cryptoboard />} />
         <Route path="/portfolio/web-3-app" element={<Web3 />} />

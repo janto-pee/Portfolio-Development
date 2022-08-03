@@ -5,7 +5,7 @@ import client4 from "./Assets/woman2.jpg";
 import Ui1 from "./Assets/ui/portfolio1.png"
 import Ui2 from "./Assets/ui/portfolio2.png"
 import Ui3 from "./Assets/ui/portfolio3.png"
-import Ui4 from "./Assets/ui/skincareLP.png"
+import Ui4 from "./Assets/ui/sellym.png"
 import Ui5 from "./Assets/ui/comingsoon.png"
 import Ui6 from "./Assets/ui/comingsoon2.png"
 import Ui7 from "./Assets/ui/comingsoon3.png"
@@ -115,11 +115,11 @@ export const portfolio ={
   },
   {
     img: Ui4,
-    link: '/portfolio/skincare-lp',
-    livelink: '',
-    github: 'https://github.com/janto-pee/skincare-app-to-deployment',
-    title: 'Skincare Homepage Page',
-    subtitle: 'This skincare homepage was initially architected to be monolithic as all app will be built as a single component. However, after building this homepage, this product is being paused for review. However, this is one of the most beautiful and mobile responsive interface'
+    link: '/portfolio/sellym',
+    livelink: 'https://sellym-blockchain-project.vercel.app/',
+    github: 'https://github.com/janto-pee/Blockchain-project',
+    title: 'Sellym Ethereum Transaction App',
+    subtitle: 'This is a web3.0 application built with Reactjs and tailwindcss on the frontend, Solidity for smart contracts and hardhat for testing and deployment, and RESTful API for fetching real time news.'
   },
 ],
 
